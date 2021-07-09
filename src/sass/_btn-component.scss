@@ -1,0 +1,32 @@
+.button.is-hidden {
+  display: none;
+}
+
+.button > .spinner.is-hidden {
+  display: none;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 8px;
+  min-width: 150px;
+  background-color: #92dba5;
+  color: inherit;
+  letter-spacing: 0.06em;
+  text-align: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    background-color: #22b141;
+  }
+}
+
+.search-form__btn {
+  margin-left: 20px;
+}
+
+.btn-load-more {
+  margin-top: 30px;
+}
